@@ -10,6 +10,6 @@ Tech stack:
 - Bootstrap
 - Visual Studio
 
-Run this command in the terminal to run the app locally:
+`cd` into the `DevOpsBlazor` directory and run this command in the terminal to run the app locally:
 
 `dotnet run`
