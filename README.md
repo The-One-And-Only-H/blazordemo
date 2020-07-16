@@ -14,12 +14,12 @@ Tech stack:
 
 Run the below commands in the terminal with Docker to run the app locally:
 
-`` docker run -ti --rm -v `pwd`:/app mcr.microsoft.com/dotnet/core/sdk:3.1 bash ``
-`cd /app/DevOpsBlazor`
-`dotnet run`
+- `` docker run -ti --rm -v `pwd`:/app mcr.microsoft.com/dotnet/core/sdk:3.1 bash ``
+- `cd /app/DevOpsBlazor`
+- `dotnet run`
 
 Run the below commands with the same Docker image to run the unit tests:
 
-`cd /app/DevOpsBlazor.UnitTests/`
-`dotnet build --configuration Release`
-`dotnet test --configuration Release`
+- `cd /app/DevOpsBlazor.UnitTests/`
+- `dotnet build --configuration Release`
+- `dotnet test --configuration Release`
